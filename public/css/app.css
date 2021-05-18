@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    background-color: black;
+}
+
+div.showcase {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+div.card {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    width: 250px;
+    color: white;
+}
+
+div img {
+    width: 250px;
+}
+
+div.info {
+    display: flex;
+    flex-direction: column;
+}
+
+div.info span.title {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+div.info span.originalTitle {
+    font-size: 18px;
+    font-style: italic;
+}
+
+div.info span.nationality {
+    text-transform: capitalize;
+}
